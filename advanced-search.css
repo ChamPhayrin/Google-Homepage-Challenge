@@ -1,0 +1,120 @@
+:root{
+    ---title-size: 3rem;
+    --border-color:rgba(118, 118, 118, 0.355);
+    --text-color-highlight-text:rgb(202, 185, 160);
+    --text-color-second:rgb(182, 106, 1) ;
+}
+
+/* TITLE */
+
+#title {
+    font-size: var(---title-size);
+    text-align: left;
+    padding: 0;
+
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+}
+/* ADVANCED SEARCH TOP*/
+
+.advanced-search{
+    width: 100%;
+}
+
+.advanced-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.advanced-labels{
+    /* width: 20vw; */
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin: 5px;
+}
+
+.advanced-inputs{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin: 5px;
+    margin: 0 20px;
+}
+
+
+.advanced-aside{
+    width: 20vw;
+    height: 30vh;
+    margin: 5px;
+}
+
+.advanced-all{
+    margin-top: 4rem;
+}
+
+.advanced-all p{
+    color: var(--text-color-second);
+}
+
+.advanced-all h4,
+h5{
+    font-weight: var(--text-weight);
+    color: var(--text-color-highlight-text);
+}
+
+/* CHANGING HEIGHT ANDD WIDTH OF ADVANCED SEARCHES TOP */
+
+.advanced-labels li,
+h4{
+    /* width: 20vw; */
+    height: 5vh;
+    text-align: left;
+}
+
+.advanced-negative-space{
+    width: 30vw;
+    height: 5vh;
+}
+
+.input-field{
+    width: 30vw;
+    height: 5vh;
+    padding: 0;
+}
+
+.advanced-aside li,
+h4{
+    /* width: 20vw; */
+    height: 5vh;
+}
+
+/* NUMBER INPUT SEARCH TOP */
+.advanced-numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.advanced-numbers input{
+height: 70%;
+width: 100%;
+}
+
+.border{
+    border-bottom: 5px var(--border-color) solid;
+}
+
+/* Button */
+
+#advanced-search-btn {
+    padding: 10px 15px;
+    color: var(--text-color);
+    background-color: var(--background-color-buttons);
+    border: none;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Google Images</title>
+		<link rel="stylesheet" href="global.css" />
+		<link rel="stylesheet" href="google-image.css" />
+		<script
+			src="https://kit.fontawesome.com/5e3005e55e.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav>
+			<div class="nav_link">
+				<ul class="nav_link">
+					<li>
+						<a id="google_link" href="index.html" target="_blank">
+							Google
+						</a>
+            <li>
+            <a href="advanced-search.html"> 
+            Advanced Search
+            </a>
+        </li>
+					</li>
+					</li>
+				</ul>
+			</div>
+			<div class="nav_link">
+				<ul>
+					<li>
+						<a
+							id="google-app_link"
+							href="https://about.google/products/"
+							target="_blank"
+						>
+							<i class="fa-solid fa-grip"></i>
+						</a>
+					</li>
+					<li>
+						<a
+							id="profile_link"
+							href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/&ec=GBRAmgQ"
+							target="_blank"
+						>
+							<i class="fa-solid fa-user"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main class="container">
+				<div class="google-all">
+					<h2 id="title">Google Image</h2>
+					<!-- Search Bar -->
+					<div class="search-img">
+						<form>
+							<input
+								type="text"
+								name="search-bar-img"
+								id="search-bar-img"
+								class="input-field"
+								placeholder="Search Google or type a URL"
+								autocomplete="off"
+							/>
+						</form>
+					</div>
+				</div>
+        <div class="tabs">
+						<ul>
+							<li>
+								<button onclick="search_button_img()" id="google-search_button_img">
+									Search
+								</button>
+							</li>
+						</ul>
+				</div>
+    </main>
+    <div class="graveyard-border">
+    </div>
+		<footer>
+			<!-- Footer Nav Buttons -->
+			<div>
+				<ul>
+					<li>
+						<a
+							id="advertising_link"
+							href="https://ads.google.com/"
+							target="_blank"
+						>
+							Advertising
+						</a>
+					</li>
+					<li>
+						<a
+							id="buisness_link"
+							href="https://smallbusiness.withgoogle.com/"
+							target="_blank"
+						>
+							Buisness
+						</a>
+					</li>
+					<li>
+						<a
+							id="how-search_link"
+							href="https://www.google.com/search/howsearchworks/?fg=1"
+							target="_blank"
+						>
+							How Search Works
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<a
+							id="privacy_link"
+							href="https://policies.google.com/privacy?hl=en&fg=1"
+							target="_blank"
+						>
+							Privacy
+						</a>
+					</li>
+					<li>
+						<a
+							id="term_link"
+							href="https://policies.google.com/terms?hl=en&fg=1"
+							target="_blank"
+						>
+							Terms
+						</a>
+					</li>
+					<li>
+						<a
+							id="setting_link"
+							href="https://www.google.com/preferences?hl=en&fg=1"
+							target="_blank"
+						>
+							Settings
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
